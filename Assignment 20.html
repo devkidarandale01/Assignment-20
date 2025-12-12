@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Unit Converters</title>
+</head>
+<body>
+  <body>
+
+  <div style="display: flex; flex-direction: row; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: nowrap;">
+
+    <div class="container">
+      <h2>📏 Centimeter to Inches</h2>
+      <p style="text-align:center; color:gray; font-size:14px; margin-top:-5px;">Convert length measurements instantly</p>
+      <input type="number" id="cmInput" placeholder="Enter centimeters" />
+      <button onclick="convertCM()">Convert</button>
+      <div class="divider"></div>
+      <div class="result" id="cmResult"></div>
+    </div>
+
+    <div class="container">
+      <h2>💰 Rupees to Dollars</h2>
+      <p style="text-align:center; color:gray; font-size:14px; margin-top:-5px;">Check currency value quickly</p>
+      <input type="number" id="rsInput" placeholder="Enter rupees" />
+      <button onclick="convertRS()">Convert</button>
+      <div class="divider"></div>
+      <div class="result" id="rsResult"></div>
+    </div>
+
+    <div class="container">
+      <h2>📐 Feet to Inches</h2>
+      <p style="text-align:center; color:gray; font-size:14px; margin-top:-5px;">Simple imperial measurement converter</p>
+      <input type="number" id="ftInput" placeholder="Enter feet" />
+      <button onclick="convertFT()">Convert</button>
+      <div class="divider"></div>
+      <div class="result" id="ftResult"></div>
+    </div>
+
+  </div>
+
+</body>
+</html>
