@@ -117,6 +117,25 @@
     </div>
 
   </div>
+<script>
+    function convertCM() {
+      let cm = document.getElementById('cmInput').value;
+      let inch = cm / 2.54;
+      document.getElementById('cmResult').innerText = `Result: ${inch.toFixed(2)} inches`;
+    }
 
+    function convertRS() {
+      let rs = document.getElementById('rsInput').value;
+      let dollarRate = 0.012;
+      let dollars = rs * dollarRate;
+      document.getElementById('rsResult').innerText = `Result: $${dollars.toFixed(2)}`;
+    }
+
+    function convertFT() {
+      let ft = document.getElementById('ftInput').value;
+      let inches = ft * 12;
+      document.getElementById('ftResult').innerText = `Result: ${inches} inches`;
+    }
+  </script>
 </body>
 </html>
